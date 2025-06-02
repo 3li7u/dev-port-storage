@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#4A90E2"/>
+  
+  <!-- Storage layers forming a P shape -->
+  <rect x="32" y="40" width="64" height="12" rx="2" fill="white"/>
+  <rect x="32" y="58" width="64" height="12" rx="2" fill="white"/>
+  <rect x="32" y="76" width="32" height="12" rx="2" fill="white"/>
+  
+  <!-- Simple key icon -->
+  <g transform="translate(70, 76)">
+    <!-- Key head -->
+    <circle cx="5" cy="6" r="5" fill="white"/>
+    <!-- Key body -->
+    <rect x="10" y="4" width="14" height="4" fill="white"/>
+    <!-- Key teeth -->
+    <rect x="22" y="2" width="2" height="6" fill="white"/>
+  </g>
+</svg> 

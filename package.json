@@ -1,0 +1,27 @@
+{
+  "name": "dev-port-storage",
+  "version": "1.0.0",
+  "description": "Browser extension to manage local development storage across different ports",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch",
+    "dev": "webpack --config webpack.config.js --mode=development --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
