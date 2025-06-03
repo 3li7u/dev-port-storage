@@ -3,7 +3,7 @@
   "name": "Dev Port Storage",
   "version": "1.0.0",
   "description": "Manage local storage and cookies across different development ports",
-  "permissions": ["storage", "tabs", "cookies", "webRequest"],
+  "permissions": ["storage", "tabs", "cookies", "webRequest", "scripting"],
   "host_permissions": ["http://localhost/*"],
   "background": {
     "service_worker": "background.js"
